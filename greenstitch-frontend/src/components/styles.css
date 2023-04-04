@@ -1,0 +1,84 @@
+nav{
+ 
+    text-align: end;
+    padding: 1rem;
+    padding-right: 1rem;
+}
+
+body{
+    background: #06beb6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.button{
+    background-color: rgba(0, 128, 0, 0.782);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    font-size: large;
+    text-decoration: none;
+    border: none;
+    
+}
+
+.button:hover{
+    background-color: rgba(0, 128, 0, 0.99);
+    cursor: pointer;
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:90vh ;
+
+}
+
+p{
+
+    font-size: 3rem;
+    padding: 1rem;
+    color: white;
+
+}
+
+.formBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.163);
+}
+
+input{
+    width: 40vw;
+    padding: 1rem 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.red{
+    background-color: rgba(255, 0, 0, 0.797);
+}
+
+.red:hover{
+    background-color: rgba(255, 0, 0, 0.952);
+}
+
+
+
+@media screen and (max-width:700px) {
+    .formBox{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    input{
+        width: 90vw;
+    }
+    
+} 
